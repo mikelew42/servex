@@ -1,6 +1,8 @@
-# CLAUDE.md
+# Servex
 
-This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
+@servex-mvp.md
+
+For broader vision, see servex.md.
 
 ## Project Overview
 
