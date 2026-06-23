@@ -21,7 +21,7 @@ export default class PortRegistry {
     fs.writeFileSync(FILE, JSON.stringify(this.ports, null, 2));
   }
 
-  getPort(name) {
+  get_port(name) {
     if (this.ports[name]) return this.ports[name];
     const used = new Set(Object.values(this.ports));
     let port = START_PORT;
